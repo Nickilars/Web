@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Descendant combinator</title>
+        <style>
+            .container .text
+            {
+                color: #ff0000; 
+                background-color: yellow; 
+                font-size: 20px; 
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p class="text">Ceci est stylisé</p>
+        </div>
+        <p class="text">Ceci ne l'est pas</p>
+        <p class="text">Ceci ne l'est pas</p>
+        <div class="container">
+            <p class="text">Ceci est stylisé</p>
+            <p class="text">Ceci est stylisé</p>
+        </div>
+    </body>
+</html>
